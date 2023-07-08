@@ -102,7 +102,18 @@ let currentMount = null
         
     )
 
-
+     //lights
+     const enviromentMap = new THREE.CubeTextureLoader()
+     const envMap = enviromentMap.load([
+       './envmp/px.png',
+       './envmp/nx.png',
+       './envmp/py.png',
+       './envmp/ny.png',
+       './envmp/pz.png',
+       './envmp/nz.png',
+     ])
+     scene.environment = envMap
+     scene.background = envMap
 
     const directional = new THREE.DirectionalLight('white',0.5)
     directional.position.set(-20,30,30)
