@@ -27,6 +27,8 @@ let currentMount = null
     controls.enableDamping = false 
     controls.enableRotate = false
     controls.enableZoom=false
+    controls.autoRotate= true
+
     //resize
     const resize = () => {
       renderer.setSize(currentMount.clientWidth,
@@ -101,6 +103,8 @@ let currentMount = null
         }
         
     )
+
+    
 
      //lights
      const enviromentMap = new THREE.CubeTextureLoader()

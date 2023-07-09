@@ -37,40 +37,8 @@ const Scene = () => {
         loop={Infinity}
         wrapper="h1" className="Typical"
       />
-      {/* <main>
-        <h2>oscarxo.studio</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-        </p>
 
-        <h2>Visual Sucios</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-        </p>
-        <h2>oscarxo.studio</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-        </p>
-
-        <h2>Visual Sucios</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea provident inventore ipsa expedita vitae blanditiis harum? Architecto deserunt error inventore quas magnam accusamus voluptas soluta enim non, animi cupiditate?
-        </p>  
-      </main> */}
       
-
-      <a className='links' href="https://oscarxo.studio/" target="_blank" rel="noopener noreferrer"><HackerText text='oscarxo.studio 🎧🎧🖼'changes='8' speed='80'/></a>
-      <a className='links' href="https://visualsucios.netlify.app/" target="_blank" rel="noopener noreferrer"><HackerText text='visual sucios 👀🤢'changes='8' speed='80'/></a>
-      {/* <img src="./patrick-spongebob.gif" alt="Descripción de la imagen" /> */}
-
       <footer className='footer'>
         <a className='links' href="https://github.com/terqo" target="_blank" rel="noopener noreferrer"><HackerText text='| github |' changes='8' speed='80'/></a>
         <a className='links' href="https://twitter.com/terqoo" target="_blank" rel="noopener noreferrer"><HackerText text='| twitter |'changes='8' speed='80' /></a>
