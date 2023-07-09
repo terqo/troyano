@@ -25,9 +25,11 @@ let currentMount = null
     //Controls
     const controls = new OrbitControls(camera, renderer.domElement)
     controls.enableDamping = false 
-    controls.enableRotate = false
+    controls.enableRotate = true
     controls.enableZoom=false
-    controls.autoRotate= true
+    controls.rotateSpeed = .1;
+    controls.autoRotate= true;
+
 
     //resize
     const resize = () => {
@@ -66,26 +68,29 @@ let currentMount = null
     dracoLoader.setDecoderPath( '/draco/' );
 
     gltfLoader.setDRACOLoader(dracoLoader)
-    gltfLoader.load('./model/halloween.glb',
+    gltfLoader.load('./model/mark2.glb',
         (gltf)=> {
           const model = gltf.scene;
           //const elapsedtime = clock.getElapsedTime();
           //model.rotation.y = elapsedtime;
-          var plane = new THREE.Plane(new THREE.Vector3(0, 0, 5), -2);
-          var raycaster = new THREE.Raycaster();
-          var mouse = new THREE.Vector2();
-          var pointOfIntersection = new THREE.Vector3();
-          currentMount.addEventListener("mousemove", onMouseMove, false);
+
+          //se agrega el mouse para que objeto siga al mouse
+          // var plane = new THREE.Plane(new THREE.Vector3(0, 0, 5), -2);
+          // var raycaster = new THREE.Raycaster();
+          // var mouse = new THREE.Vector2();
+          // var pointOfIntersection = new THREE.Vector3();
+          // currentMount.addEventListener("mousemove", onMouseMove, false);
           
-          function onMouseMove(event){
-            mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-            mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
-            raycaster.setFromCamera(mouse, camera);
-            raycaster.ray.intersectPlane(plane, pointOfIntersection);
-            model.lookAt(pointOfIntersection);
-          }
-          model.position.x =0.5
-          model.position.y =0
+          // function onMouseMove(event){
+          //   mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+          //   mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+          //   raycaster.setFromCamera(mouse, camera);
+          //   raycaster.ray.intersectPlane(plane, pointOfIntersection);
+          //   model.lookAt(pointOfIntersection);
+          // }
+          //se modifica la posicion y escala
+          model.position.x =1
+          model.position.y =-1
           model.scale.set(4,4,4)
           model.rotation.y=-1.5
           //modify materials using .traverse().
