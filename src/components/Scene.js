@@ -37,7 +37,12 @@ const Scene = () => {
         loop={Infinity}
         wrapper="h1" className="Typical"
       />
-
+      <div>
+        <p>En el poema épico de Virgilio, La Eneida, un inteligente estratega militar griego llamado Ulises elabora un plan para que sus hombres entren en la ciudad amurallada de Troya. En lugar de destruir o escalar las murallas de la ciudad, Ulises ve otra forma de entrar: con un engaño. Los soldados troyanos observan cómo los griegos parecen marcharse, dejando atrás un gigante caballo de madera como muestra de rendición. Ebrios tras la victoria, los troyanos introducen el caballo en la ciudad amurallada, para descubrir que Ulises y sus hombres habían estado escondidos dentro todo el tiempo. </p>    
+        <a className='links' href="https://visualsucios.netlify.app/" target="_blank" rel="noopener noreferrer"><HackerText text='oscarxo.studio 🎧🖼'changes='8' speed='80'/></a>
+        <a className='links' href="https://visualsucios.netlify.app/" target="_blank" rel="noopener noreferrer"><HackerText text='visual sucios 👀🤢'changes='8' speed='80'/></a>
+      </div>
+      
       
       <footer className='footer'>
         <a className='links' href="https://github.com/terqo" target="_blank" rel="noopener noreferrer"><HackerText text='| github |' changes='8' speed='80'/></a>

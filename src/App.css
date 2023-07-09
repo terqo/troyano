@@ -87,6 +87,9 @@ h1{
   justify-content:flex-end;
   padding: 2rem;
 }
+p{ 
+  text-align: justify;
+}
 /* a{
   display: block;
   color: white;
