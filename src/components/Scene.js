@@ -30,14 +30,15 @@ const Scene = () => {
         <label for="progress-bar">Loading...</label>
         <progress id='progress-bar' value='0' max='100' ></progress>
       </div>
-
+      
       <div className='contenedor'>
+        
+        <div>
         <Typical
           steps={['Troyano', 1000, 'Troyano.zip!', 500,]}
           loop={Infinity}
           wrapper="h1" className="Typical"
         />
-        <div>
           <p>
             <HackerText text='En el poema épico de Virgilio, La Eneida, un inteligente estratega militar griego llamado Ulises elabora un plan para que sus hombres entren en la ciudad amurallada de Troya. En lugar de destruir o
             escalar las murallas de la ciudad, Ulises ve otra forma de entrar: con un engaño. Los soldados troyanos observan cómo los griegos parecen marcharse, dejando atrás un gigante caballo de 
