@@ -33,7 +33,7 @@ const Scene = () => {
       
       <div className='contenedor'>
         
-        <div>
+        <div className='main'>
         <Typical
           steps={['Troyano', 1000, 'Troyano.zip!', 500,]}
           loop={Infinity}
