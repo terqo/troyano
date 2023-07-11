@@ -25,9 +25,9 @@ let currentMount = null
     //Controls
     const controls = new OrbitControls(camera, renderer.domElement)
     controls.enableDamping = false 
-    controls.enableRotate = true
+    controls.enableRotate = false
     controls.enableZoom=false
-    controls.rotateSpeed = .1;
+    controls.rotateSpeed = .1; 
     controls.autoRotate= true;
 
 
