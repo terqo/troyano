@@ -52,7 +52,7 @@ const Scene = () => {
         <footer className='footer'>
           <a className='links' href="https://github.com/terqo" target="_blank" rel="noopener noreferrer"><HackerText text='| github |' changes='8' speed='80' /></a>
           <a className='links' href="https://twitter.com/terqoo" target="_blank" rel="noopener noreferrer"><HackerText text='| twitter |' changes='8' speed='80' /></a>
-          <a className='links' href="https://www.instagram.com/keepitdopecop/" target="_blank" rel="noopener noreferrer"><HackerText text='| instragram |' changes='8' speed='80' /></a>
+          <a className='links' href="https://www.instagram.com/keepitdopecop/" target="_blank" rel="noopener noreferrer"><HackerText text='| instagram |' changes='8' speed='80' /></a>
           {/* <a className='links' href="https://www.linkedin.com/in/oscqr/" target="_blank" rel="noopener noreferrer"><HackerText text='| linkedin |' /></a> */}
           <a className='links' href="https://oscarxo.studio" target="_blank" rel="noopener noreferrer"><HackerText text='| main |' /></a>
 
